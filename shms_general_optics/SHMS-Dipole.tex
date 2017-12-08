@@ -1,0 +1,40 @@
+\documentclass[]{article}
+\usepackage{graphicx}
+
+%opening
+\title{Setting of SHMS Dipole}
+
+\begin{document}
+
+\maketitle
+
+The SHMS Dipole has a bend angle of $\theta_B = 18.4^{\circ}$. For p = 11~GeV/c momentum
+the integral field, $Bdl$,  is 11.783~Tm from:
+\begin{equation}
+     Bdl =  P*\theta_{B}/.2998
+\end{equation}
+The ratio between the arc length along the bend angle, $L_{arc}$ and the chord length, $L_{chord}$, is 
+	\begin{equation}
+	L_{arc}/L_{chord} = (\theta_{B}/2)/\sin(\theta_{B}/2)=1.004
+	\end{equation}
+	for $theta_B = 18.4^{\circ}$ deg. Therefore, the integral field along a straight path of 11.732~Tm.
+	
+From a TOSCA model, SHMSD2008.map, I determined an effective length of the SHMS dipole as 2.855~m which
+would mean that the maximum field would be 4.1083~T. Holly measured 4.0766425~T at a current of 3450~A.
+The ratio is 1.0078 . 
+During KPP, the SHMS dipole was set to currents according to I= p*3450/11 . 
+For 2.2~GeV, the maximum field should be 0.82166~T. From Holly's fit to the measured
+data, 2.2~GeV is .8175~T and current of 690.00~A. This is a ratio of 1.0051. Holly's
+fit will take care of the  difference between 2.2 and 11~GeV.
+
+So it comes down to how well, the SHMS dipole effective length is known. 
+It seems that it will be tough to know it to 0.5\% or 1.4~cm. From the measurements
+that Steve provided, I do not know if it is possible to tell. Where the
+maximum field stays relatively constant the agreement with TOSCA is at 0.1\%
+level but the drop is not described well enough. It seems that the data have a smaller
+effective length than the TOSCA model. I do not know how this TOSCA model compares to
+SHMSD2008.map. I guess that we will have to wait until the HEEPCHECK determines the
+central momentum. The X focal plane position changes 1~mm for every 0.06\%.
+
+	
+\end{document}
