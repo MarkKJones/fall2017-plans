@@ -1,0 +1,75 @@
+\documentclass[]{article}
+\usepackage{graphicx}
+
+%opening
+\title{HMS Delta scan with Hydrogen elastic}
+
+\begin{document}
+
+\maketitle
+
+
+\section{Introduction}
+
+Do a delta scan of the HMS using hydrogen elastic from -10\% to +10\%.
+At $\theta_{HMS} = 13.5^{\circ}$, the $Q^2$ for elastic
+hydrogen events is 0.254~GeV$^2$ and the momentum is 2.078~MeV.
+With the low $Q^2$ , rates will be high. 
+Need to have the 2x2 raster on. Use the 4cm LH2 target
+to have smaller target length. Table~\ref{tab:kin}
+summarizes the kinematics and setup.
+
+The HMS magnets need to be cycled to the highest momentum
+and then the momentum is lowered in 1\$ steps. A list of central
+HMS momentum is given in Table~\ref{tab:central}. The runs
+can be short, since only need around 5000 events per setting.
+
+\begin{table}[h]
+	\begin{center}
+		\begin{tabular}[]{|c|c|} \hline\hline
+			beam energy: & 2214 MeV\\ \hline
+			HMS momentum & 2309 - 1889 MeV \\ \hline
+			HMS angle & 13.5 deg \\ \hline
+			HMS collimator & Pion collimator \\ \hline
+			beam current: & 5 $\mu$A\\ \hline
+			fast raster: & 2x2\\ \hline
+			target: & 4cm LH2\\ \hline
+		\end{tabular}
+		\caption{Kinematics}
+		\label{tab:kin}
+	\end{center}
+\end{table}
+	
+\begin{table}[h]
+	\begin{center}
+		\begin{tabular}[]{|c|c|} \hline
+$\delta$ & HMS Central momentum setting \\ \hline \hline
+	-10	&2.309\\ \hline
+	-9	&2.284\\ \hline
+	-8	&2.259\\ \hline
+	-7	&2.234\\ \hline
+	-6	&2.211\\ \hline
+	-5	&2.187\\ \hline
+	-4	&2.165\\ \hline
+	-3	&2.142\\ \hline
+	-2	&2.120\\ \hline
+	-1	&2.099\\ \hline
+	0	&2.078\\ \hline
+	1	&2.057\\ \hline
+	2	&2.037\\ \hline
+	3	&2.017\\ \hline
+	4	&1.998\\ \hline
+	5	&1.979\\ \hline
+	6	&1.960\\ \hline
+	7	&1.942\\ \hline
+	8	&1.924\\ \hline
+	9	&1.906\\ \hline
+	10	&1.889\\ \hline
+			\end{tabular}
+			\caption{Central momentum settings for scan}
+			\label{tab:central}
+		\end{center}
+	\end{table}
+	
+
+\end{document}
