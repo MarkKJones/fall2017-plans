@@ -10,3 +10,8 @@ Only the last line of the input file is used, all other lines are ignored.
 We have included an example input file and root file from E94139, run number 23460, which can be used to run and test the script.
 
 
+We also have a version which runs on SIMC ntuples (converted to root files) called heepcheck_plot_simc.C
+the input file for this script is called heepcheck_simc.input and it has the same kinematics information except for the run number
+an example simc root file called eep_optics.root is included for testing.
+
+
