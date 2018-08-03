@@ -54,7 +54,7 @@
 @timestamp rot 0
 @timestamp font 0
 @timestamp char size 1.000000
-@timestamp def "Wed Feb 21 11:54:12 2018"
+@timestamp def "Fri Aug  3 13:25:37 2018"
 @r0 off
 @link r0 to g0
 @r0 type left
@@ -300,4 +300,6 @@
 20.32 -0.57
 24.99 -0.43
 39.94 -0.43
+7.4787 0.06
+24.61 -0.87
 &
